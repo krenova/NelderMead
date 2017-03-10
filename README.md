@@ -17,3 +17,5 @@ A Generic Nelder Mead optimization function, _**NM_opt()**_, for the parameter o
 4. Before attempting to use the function, going through either the following examples is highly recommended:
  	* to quickly jump into the use of the library, please refer to: [example.ipynb](https://github.com/krenova/NelderMead/blob/master/example.ipynb)
  	* to run the programme in R instead of Jupyter Notebook, please refer to: [example.R](https://github.com/krenova/NelderMead/blob/master/example.R)
+
+5. _**NM_opt()**_ is built on base R and therefore only has dependencies on changes in base R code. However, to note that in the examples provided where _**NM_opt()**_ was applied on **xgboost** and **randomForest** methods, changes in their functions may cause the examples to be unable to run. In this case, to run the codes, either modify the respective wrappers around their functions accordingly or revert the packages to versions in 2017-03-01.
